@@ -84,7 +84,7 @@ function draw() {
       if (bananaGroup.isTouching(monkey)){
       bananaGroup.destroyEach();
       score = score+2;
-      monkey.scale += 0.019;
+      monkey.scale += 0.1;
     }
   
   monkey.velocityY = monkey.velocityY + 0.7
